@@ -14,6 +14,8 @@
 		7D8271012212CB960071574D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8270FF2212CB960071574D /* LaunchScreen.storyboard */; };
 		7D82710C2212CB960071574D /* ShoppingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82710B2212CB960071574D /* ShoppingListTests.swift */; };
 		7D8271172212CB960071574D /* ShoppingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8271162212CB960071574D /* ShoppingListUITests.swift */; };
+		7D8271282212DD7F0071574D /* AddShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8271272212DD7F0071574D /* AddShoppingViewController.swift */; };
+		7D82712A2212DDC10071574D /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8271292212DDC10071574D /* ShoppingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7D8271122212CB960071574D /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8271162212CB960071574D /* ShoppingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListUITests.swift; sourceTree = "<group>"; };
 		7D8271182212CB960071574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8271272212DD7F0071574D /* AddShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShoppingViewController.swift; sourceTree = "<group>"; };
+		7D8271292212DDC10071574D /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		7D8270F52212CB950071574D /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
+				7D8271242212DB870071574D /* VC */,
 				7D8270F62212CB950071574D /* AppDelegate.swift */,
 				7D8270F82212CB950071574D /* ViewController.swift */,
 				7D8270FA2212CB950071574D /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				7D8271182212CB960071574D /* Info.plist */,
 			);
 			path = ShoppingListUITests;
+			sourceTree = "<group>";
+		};
+		7D8271242212DB870071574D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7D8271272212DD7F0071574D /* AddShoppingViewController.swift */,
+				7D8271292212DDC10071574D /* ShoppingTableViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8270F92212CB950071574D /* ViewController.swift in Sources */,
+				7D82712A2212DDC10071574D /* ShoppingTableViewController.swift in Sources */,
+				7D8271282212DD7F0071574D /* AddShoppingViewController.swift in Sources */,
 				7D8270F72212CB950071574D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
